@@ -6,3 +6,5 @@ Moving to the modeling stage, we trained a Support Vector Machine (SVM) model on
 One of the highlights of this project is its deployment via Flask, a lightweight web framework in Python. This deployment enables users to interact with the model through a user-friendly web interface, making music genre classification accessible to a wider audience. Whether you're an enthusiast exploring diverse music genres or a researcher studying computational musicology, our application provides a convenient platform for genre classification.
 
 This project also serves as a testament to academic achievement, submitted as part of the fulfillment for the MCA course at NIST university,Odisha. It embodies the practical application of machine learning in real-world scenarios, showcasing the integration of theoretical knowledge with hands-on experience. Through this endeavor, we aim to contribute to the growing field of music informatics while providing a valuable learning resource for students and enthusiasts alike.
+Install the requirements.txt file
+run app.py using python 3.8 or above
