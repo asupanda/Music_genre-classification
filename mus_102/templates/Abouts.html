@@ -1,0 +1,108 @@
+
+
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+ 
+ {% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+<!--
+<style>
+	body{
+background-image: url();
+height:max-content;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+	}
+
+</style>-->
+
+{% block body %}
+<div class="overlay"></div>
+ <br>
+ <br>
+ <div style="font-size: 19px ; border-style:dashed; margin:0px 40px;background-color:rgb(31, 63, 119);">
+     <h1 align="center" style="color: antiquewhite;" > Our Objective</h1>
+     <p style="margin:30px 160px;color: rgb(247, 243, 243);"> If one has to manually classify the songs or music, one has to listen to a lot of songs and then select the genre.
+         This is not only time-consuming but also difficult.
+         The objective of our music classification interface is to make the selection of songs quick and less cumbersome.</p>
+     <p style="margin: 20px 160px;color: rgb(246, 241, 241);">
+		Yet, amidst the complexity, there lies a simplicity of purpose: to provide clarity in ambiguity. Whether it's curating playlists for music platforms or setting the mood for an event, this classifier becomes an indispensable ally, seamlessly matching soundscapes to intentions.
+
+     </p>
+ </div>
+
+
+ <br>
+ <section class="team">
+		<div class="center">
+			<h1 style="color: aliceblue;">Our Team</h1>
+		</div>
+		<div class="team-content">
+			<div class="box">
+				<img class="Asutosh"src="../static/img/imm.jpg" alt="Avatar">
+				<h5>Asutosh Panda</h5>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/asutosh-panda-b15ab4219"><i class="ri-twitter-fill"><img style="width: 50px;" src="../static/img/linkedin.png"></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="../static/img/02.jpg">
+				<h5>Bismayatosh malik</h5>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/bismayatosh-malik-76269326a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-twitter-fill"><img style="width: 50px;" src="../static/img/linkedin.png"></a>
+					</div>
+				</div>
+				
+				<!--<div class="box">
+					<img src="../static/img/imm.jpg">
+					<h5>Prof. Amaresh Mahanty</h5><br>
+					<h2>(Project Adviser)<h2>
+					<div class="icons">
+					<a href=""><i class="ri-twitter-fill"><img style="width: 50px;" src="../static/img/linkedin.jfif"></a>
+				</div>-->
+
+
+
+			</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<style>
+		/* Overlay to darken background image */
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last parameter) to control darkness */
+			z-index: -1; /* Ensure it's behind other content */
+		}
+	
+		/* Container to position navigation bar and content */
+		.container {
+			position: relative;
+		}
+	
+		/* Content styling */
+		.content {
+			position: relative; /* Ensure it's positioned relative to the container */
+			z-index: 0.5; /* Ensure it's above the overlay */
+		}
+	</style>
+  {% endblock body %}

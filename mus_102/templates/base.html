@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>{% block title %} {% endblock title %} - Music Genre Classifier</title>
+  </head>
+  <body style="background-image: url(https://img.freepik.com/free-vector/music-notes-background_23-2151339669.jpg?w=996&t=st=1715003307~exp=1715003907~hmac=011af030c1c6f5c59bd9b73cf3ded77e7cf1b318c56753a0198ee58dc9bbcc33);background-position: center;
+  height: max-content;
+  background-repeat: no-repeat;
+  background-size: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(https://img.freepik.com/free-vector/music-notes-background_23-2151339669.jpg?w=996&t=st=1715003307~exp=1715003907~hmac=011af030c1c6f5c59bd9b73cf3ded77e7cf1b318c56753a0198ee58dc9bbcc33); background-position: center; height: max-content; background-repeat: no-repeat; background-size: cover; z-index: 0;"></div>
+  <div style="position: relative; z-index: 2;">
+   <!--<style>
+    body{
+background-image: url("https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg?w=1060&t=st=1714672339~exp=1714672939~hmac=9745ecb3b8c00018062de46ab2aba95e6c32108ee2f9fb7170e4f29efe08d8ca");
+height: 100%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+    }
+    
+
+   </style>-->
+<!--  navbar boiler plate code-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/"><img src="..\static\img\site_logo.jpg" width="50px" height="40px"> </img></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="color:brown;cursor:pointer;" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="transition: color 0.3s ease;" href="/about_us">About Us</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+  {% block body %}
+
+  {% endblock body %}
+  
+  </body>
+</html>
